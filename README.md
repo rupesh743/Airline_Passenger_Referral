@@ -27,7 +27,7 @@
 
  cabin_service: Rating given for cabin service.
 
- food_bev: Rating given for food and beverages.
+ food_bev: Rating given for food and beverages
 
  entertainment: Rating given for the in-flight entertainment.
 
