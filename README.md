@@ -5,7 +5,7 @@
 
  airline: The name of the airline.
 
- overall: The overall rating given by the customer for the flight experience.
+ overall: The overall rating is given by the customer for the flight experience.
 
  author: The author of the review.
 
@@ -29,7 +29,7 @@
 
  food_bev: Rating given for food and beverages.
 
- entertainment: Rating given for the in-flight entertainment.
+ entertainment: Rating is given for the in-flight entertainment.
 
  ground_service: Rating given for ground service.
 
