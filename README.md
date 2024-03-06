@@ -1,38 +1,68 @@
-# Airline_Passenger_Referral
- The "Airline_Passenger_Referral" dataset contains information about passenger referrals within an airline, providing insights into customer referral behavior and the effectiveness of referral programs.
+# Airline Passenger Sentiment Analysis
 
- The dataset appears to contain customer reviews of Airlines. Here is a variable description for the dataset:
+## Overview
+This project aims to analyze and predict passenger sentiments based on reviews of various airline services. The dataset used contains information about airline reviews, including overall ratings, specific service ratings, traveler types, and more.
 
- airline: The name of the airline.
+## Dataset Overview
 
- overall: The overall rating is given by the customer for the flight experience.
+The dataset consists of the following columns:
 
- author: The author of the review.
+- **airline**: The name of the airline.
+- **overall**: Overall rating provided by the reviewer.
+- **author**: Author or reviewer's name.
+- **review_date**: Date when the review was posted.
+- **customer_review**: The actual content of the customer's review.
+- **aircraft**: Aircraft type (if available).
+- **traveller_type**: Type of traveler (e.g., Solo Leisure, Business, Family Leisure).
+- **cabin**: Cabin type (e.g., Economy Class, Business Class).
+- **route**: Flight route information.
+- **date_flown**: Date when the flight was taken.
+- **seat_comfort**: Rating for seat comfort.
+- **cabin_service**: Rating for cabin service.
+- **food_bev**: Rating for food and beverages.
+- **entertainment**: Rating for in-flight entertainment.
+- **ground_service**: Rating for ground services.
+- **value_for_money**: Rating for value for money.
+- **recommended**: Whether the reviewer recommends the airline (yes/no).
 
- review_date: The date when the review was posted.
+## Exploratory Data Analysis (EDA)
 
- customer_review: The text of the customer's review.
+### Key Questions Explored
+- **1. What is the distribution of overall ratings across different airlines?**
+- **2. How do different cabin types correlate with overall satisfaction?**
+- **3. Is there a significant difference in ratings between Economy and Business/First Class passengers?**
+- **4. What factors contribute most to passenger recommendations?**
+- **5. How does the sentiment vary among solo travelers and other traveler types?**
 
- aircraft: The aircraft used for the flight (if specified in the review).
+### Key Insights
+- **Economy Class Dominance**: Economy class is the most prevalent, both in terms of passengers and favorable overall ratings.
+- **Balanced Dataset**: The target variable, "recommended," indicates a balanced dataset.
+- **Solo Leisure Travelers**: The majority of travelers are solo leisure travelers.
+- **Top Reviewed Airlines**: American Airlines, United Airlines, and British Airways receive the most reviews.
 
- traveller_type: The type of traveler (e.g., Business, Family Leisure, Solo Leisure) as mentioned by the reviewer.
+### Visualizations
+- Visualizations include histograms, bar plots, box plots, pie charts, correlation heatmaps, and pair plots. These provide insights into the distribution of ratings, cabin types, and the relationship between different variables.
 
- cabin: The cabin class (e.g., Economy Class, Business Class) as mentioned by the reviewer.
+## Machine Learning Models
 
- route: The route of the flight.
+### Top Three Models
 
- date_flown: The date when the flight was taken.
+1. **Logistic Regression**
+   - Achieved the highest accuracy among the experimented models.
+   - Identified as the best-performing model for sentiment prediction.
 
- seat_comfort: Rating given for seat comfort.
+2. **Support Vector Machine (SVM)**
+   - Second-highest accuracy in the model evaluations.
+   - Provides robust classification performance.
 
- cabin_service: Rating given for cabin service.
+3. **K-Nearest Neighbor (KNN)**
+   - Third-highest accuracy in the model evaluations.
+   - Offers a reliable approach for sentiment analysis.
 
- food_bev: Rating given for food and beverages.
+### Feature Analysis
+- Overall rating and value for money were identified as crucial factors influencing predictions.
 
- entertainment: Rating is given for the in-flight entertainment.
+### Final Conclusion
+The EDA provided valuable insights into passenger demographics, preferences, and sentiment. Leveraging the top-performing logistic regression model, airlines can focus on enhancing specific services like cabin comfort and value for money to improve overall customer satisfaction and increase positive recommendations.
 
- ground_service: Rating given for ground service.
-
- value_for_money: Rating given for the value for money.
-
- recommended: Indicates whether the customer recommends the airline (yes or no).
+#
