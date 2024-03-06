@@ -1,7 +1,37 @@
 # Airline Passenger Sentiment Analysis
 
-## Overview
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Project Summary](#project-summary)
+- [Problem Statement](#problem-statement)
+- [Business Objectives](#business-objectives)
+- [Dataset Overview](#dataset-overview)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+  - [Key Questions Explored](#key-questions-explored)
+  - [Key Insights](#key-insights)
+  - [Visualizations](#visualizations)
+- [Machine Learning Models](#machine-learning-models)
+  - [Top Three Models](#top-three-models)
+  - [Feature Analysis](#feature-analysis)
+  - [EDA Questions](#eda-questions)
+  - [Final Conclusion](#final-conclusion)
+
+## Introduction
 This project aims to analyze and predict passenger sentiments based on reviews of various airline services. The dataset used contains information about airline reviews, including overall ratings, specific service ratings, traveler types, and more.
+
+## Project Summary
+In this sentiment analysis project, we explored a dataset containing airline reviews to gain insights into passenger sentiments. We performed exploratory data analysis (EDA) to understand the distribution of ratings, identify key factors influencing passenger recommendations, and explore patterns among different traveler types.
+
+Following the EDA, we implemented machine learning models, including Logistic Regression, Support Vector Machine (SVM), and K-Nearest Neighbor (KNN), to predict passenger sentiments accurately. The logistic regression model emerged as the top-performing model with the highest accuracy.
+
+## Problem Statement
+The main goal of this project is to understand the factors influencing passenger sentiments and build a predictive model to determine whether a passenger would recommend a particular airline based on their reviews. The problem involves classification and sentiment analysis of customer feedback.
+
+## Business Objectives
+- Identify key factors contributing to positive or negative passenger sentiments.
+- Develop a predictive model to classify reviews and predict recommendations.
+- Provide actionable insights to airlines for improving services and customer satisfaction.
 
 ## Dataset Overview
 
@@ -35,7 +65,7 @@ The dataset consists of the following columns:
 - **5. How does the sentiment vary among solo travelers and other traveler types?**
 
 ### Key Insights
-- **Economy Class Dominance**: Economy class is the most prevalent, both in terms of passengers and favorable overall ratings.
+- **Economy Class Dominance**: Economy class is the most prevalent both in terms of passengers and favorable overall ratings.
 - **Balanced Dataset**: The target variable, "recommended," indicates a balanced dataset.
 - **Solo Leisure Travelers**: The majority of travelers are solo leisure travelers.
 - **Top Reviewed Airlines**: American Airlines, United Airlines, and British Airways receive the most reviews.
